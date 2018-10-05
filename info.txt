@@ -1,0 +1,29 @@
+TP3
+
+x : conjunto de muestras de entrenamiento. (Matriz)
+C/columna es una muestra.
+
+T: conjunto conjunto de etiquetas de las muestras.
+
+
+Variables aleatorias
+Ej: Temperatura
+
+Eje y es probabilidad, eje x son los grados.
+
+Se crea una media basada en las muestras, la cual será la esperanza de que ese día tenga esa temperatura.
+En el eje y se divide la cant. de apariciones entre la cant. total de muestras.
+
+
+
+Se usa la función Gaussiana
+
+En la TP, se van a usar 2 variables: temp. y humedad
+
+u1 = temp. promedio
+u2 = humedad promedio
+o1 = dispersion temp
+o2= diespersion humedad
+
+Día verano: u1 = 28°, u2 = 20%, o1 = 3, o2 = 10%
+Día invierno: u1 = 15°, u2 =  80%, o1 = 2, o2 = 8%
